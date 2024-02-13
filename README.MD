@@ -1,3 +1,3 @@
 ## 코딩테스트 준비하기
-* 사용언어 : Javascrpit, Python3
+* 사용언어 : Javascript, Python3
 
