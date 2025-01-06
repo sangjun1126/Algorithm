@@ -1,10 +1,9 @@
 function solution(n) {
     var answer = 0;
-    n = n.toString();
-    for (let i = 0; i <n.length; i++){
-    answer += parseInt(n[i]); 
+    let sp_n = n.toString().split('')
+    // console.log(sp_n)
+    for (let i = 0; i < sp_n.length; i++) {
+        answer += Number(sp_n[i])
     }
-    return answer ;
+    return answer;
 }
-// 정수 n = ~~ 쓸필요는 없음
-// sum(n)
