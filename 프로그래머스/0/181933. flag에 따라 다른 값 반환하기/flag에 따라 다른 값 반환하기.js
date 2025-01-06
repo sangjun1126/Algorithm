@@ -1,9 +1,9 @@
 function solution(a, b, flag) {
     var answer = 0;
-    if(flag==true){
-        return a+b;
-    }else if(flag==false){
-        return a-b;
+    if (flag === true) {
+        answer = a+b
+    } else {
+        answer = a-b
     }
     return answer;
 }
